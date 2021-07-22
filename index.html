@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPP Tax Calulator</title>
+</head>
+
+<body>
+    <form>
+        <label>
+            산 가격
+            <input id="buyPrice" type="number" />
+        </label>
+        <label>
+            판 가격
+            <input id="sellPrice" type="number" />
+        </label>
+        <label>
+            주식 갯수
+            <input id="amount" type="number" />
+        </label>
+        <label>
+            보유한 후 1년이 지났음
+            <input id="oneYear" type="checkbox" />
+        </label>
+        <label>
+            보유한 후 2년이 지났음
+            <input id="twoYear" type="checkbox" />
+        </label>
+        <button id="calc" type="button">계산하기</button>
+    </form>
+
+    <div>
+        <h1 id="result"></h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
